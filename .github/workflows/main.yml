@@ -29,4 +29,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ cheerful-hose.surge.sh --token ${{ secrets.NEW_TOKEN1 }}
+        run: surge ./ http://bootcamp-1991.surge.sh --token ${{ secrets.NEW_TOKEN1 }}
